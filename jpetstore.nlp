@@ -1,0 +1,13 @@
+# Project description file
+
+project.name=jpetstore
+project.version=6.5
+project.original.version=6.5
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=6.9.0
+project.id=81d2f003-31ab-4ec3-b990-4c98fe6a3a89
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=/Benbbe/jpetstore.git

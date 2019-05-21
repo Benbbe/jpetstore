@@ -1,0 +1,437 @@
+<http-page executeResourcesDynamically="false" name="/cart"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@j@petstore_@browse/%resources%/recorded-artifacts/92ee1f12-50f4-439d-a552-4967e0a0a5e6.zip"
+    slaProfileEnabled="false" thinkTime="11027"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="92ee1f12-50f4-439d-a552-4967e0a0a5e6">
+    <embedded-action>72afb840-d0a6-4774-a88a-53259ab1a516</embedded-action>
+    <embedded-action>522e9ce9-4df4-4a92-a2c6-a1f5f3fe40fe</embedded-action>
+    <embedded-action>63240e94-41da-457a-a4d1-ec5277f533fa</embedded-action>
+    <embedded-action>f33fece9-c0d3-4a13-bb14-ea706a12346c</embedded-action>
+    <embedded-action>63e0a9b7-ae08-4c1c-a4fd-69b555e785af</embedded-action>
+    <embedded-action>622db6a5-c1bb-46ef-8881-5b0c48fa1f6c</embedded-action>
+    <embedded-action>fab523ee-9c7f-48b3-90a0-c2052c6376f9</embedded-action>
+    <embedded-action>0ade3874-64d6-4db7-9d77-63c1d33aa3ac</embedded-action>
+    <embedded-action>a98ccb43-f3d1-4363-b74a-9ff2541b287e</embedded-action>
+    <embedded-action>715add71-cea0-48f7-b536-baa64368a70f</embedded-action>
+    <embedded-action>7a9cec6d-c76a-4e47-b416-8f3599339089</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_92ee1f12-50f4-439d-a552-4967e0a0a5e6.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/cart" path="/cart" postType="1"
+    recordedArtifactZipFileName="team/vus/@j@petstore_@browse/%resources%/recorded-artifacts/92ee1f12-50f4-439d-a552-4967e0a0a5e6.zip"
+    recordedResponseCode="200"
+    refererUid="02d05fed-0c26-4076-8477-bbd2368de910"
+    responseSize="6625" serverUid="jpetstore.cfapps.io"
+    slaProfileEnabled="false" uid="72afb840-d0a6-4774-a88a-53259ab1a516" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_72afb840-d0a6-4774-a88a-53259ab1a516.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_72afb840-d0a6-4774-a88a-53259ab1a516.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="${Ext_Item_Id}"/>
+    </assertions>
+    <header name="Accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="JSESSIONID=22375D7DD040BBE703FCE1E99E690993; __VCAP_ID__=096392cd-e6d7-4527-6e99-77d6"/>
+    <header name="Host" value="jpetstore.cfapps.io"/>
+    <header name="Referer" value="https://jpetstore.cfapps.io/catalog"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Content-Language: fr-FR&#xd;
+Content-Type: text/html;charset=UTF-8&#xd;
+Date: Tue, 21 May 2019 16:00:48 GMT&#xd;
+Expires: 0&#xd;
+Pragma: no-cache&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-Frame-Options: DENY&#xd;
+X-Vcap-Request-Id: 17273d8c-ab6f-449f-4c18-71918df9da7e&#xd;
+X-Xss-Protection: 1; mode=block&#xd;
+transfer-encoding: chunked&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 03 Apr 2019 07:46:18 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/css/jpetstore.css" path="/css/jpetstore.css"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@j@petstore_@browse/%resources%/recorded-artifacts/92ee1f12-50f4-439d-a552-4967e0a0a5e6.zip"
+    recordedResponseCode="200" responseSize="5936"
+    serverUid="jpetstore.cfapps.io" slaProfileEnabled="false"
+    uid="522e9ce9-4df4-4a92-a2c6-a1f5f3fe40fe" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_522e9ce9-4df4-4a92-a2c6-a1f5f3fe40fe.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_522e9ce9-4df4-4a92-a2c6-a1f5f3fe40fe.txt</requestContentFileDescription>
+    <header name="Accept" value="text/css, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="JSESSIONID=22375D7DD040BBE703FCE1E99E690993; __VCAP_ID__=096392cd-e6d7-4527-6e99-77d6"/>
+    <header name="Host" value="jpetstore.cfapps.io"/>
+    <header name="Referer" value="https://jpetstore.cfapps.io/cart"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Content-Type: text/css&#xd;
+Date: Tue, 21 May 2019 16:00:50 GMT&#xd;
+Expires: 0&#xd;
+Last-Modified: Wed, 03 Apr 2019 07:46:18 GMT&#xd;
+Pragma: no-cache&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-Frame-Options: DENY&#xd;
+X-Vcap-Request-Id: 607ee636-eec9-4bd8-44c7-5244d6ec1225&#xd;
+X-Xss-Protection: 1; mode=block&#xd;
+Content-Length: 5936&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 03 Apr 2019 07:46:20 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/images/logo-topbar.gif"
+    path="/images/logo-topbar.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@j@petstore_@browse/%resources%/recorded-artifacts/92ee1f12-50f4-439d-a552-4967e0a0a5e6.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="jpetstore.cfapps.io" slaProfileEnabled="false"
+    uid="63240e94-41da-457a-a4d1-ec5277f533fa" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_63240e94-41da-457a-a4d1-ec5277f533fa.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="JSESSIONID=22375D7DD040BBE703FCE1E99E690993; __VCAP_ID__=096392cd-e6d7-4527-6e99-77d6"/>
+    <header name="Host" value="jpetstore.cfapps.io"/>
+    <header name="Referer" value="https://jpetstore.cfapps.io/cart"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Content-Type: image/gif&#xd;
+Date: Tue, 21 May 2019 16:00:50 GMT&#xd;
+Expires: 0&#xd;
+Last-Modified: Wed, 03 Apr 2019 07:46:20 GMT&#xd;
+Pragma: no-cache&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-Frame-Options: DENY&#xd;
+X-Vcap-Request-Id: a813d8eb-d6d6-4e96-4fff-4b0a4873453d&#xd;
+X-Xss-Protection: 1; mode=block&#xd;
+Content-Length: 3808&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 03 Apr 2019 07:46:20 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/images/cart.gif" path="/images/cart.gif"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@j@petstore_@browse/%resources%/recorded-artifacts/92ee1f12-50f4-439d-a552-4967e0a0a5e6.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="jpetstore.cfapps.io" slaProfileEnabled="false"
+    uid="f33fece9-c0d3-4a13-bb14-ea706a12346c" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_f33fece9-c0d3-4a13-bb14-ea706a12346c.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="JSESSIONID=22375D7DD040BBE703FCE1E99E690993; __VCAP_ID__=096392cd-e6d7-4527-6e99-77d6"/>
+    <header name="Host" value="jpetstore.cfapps.io"/>
+    <header name="Referer" value="https://jpetstore.cfapps.io/cart"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Content-Type: image/gif&#xd;
+Date: Tue, 21 May 2019 16:00:50 GMT&#xd;
+Expires: 0&#xd;
+Last-Modified: Wed, 03 Apr 2019 07:46:20 GMT&#xd;
+Pragma: no-cache&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-Frame-Options: DENY&#xd;
+X-Vcap-Request-Id: 0bab5b18-aa9a-4ca0-4b94-1e21dcc1acc0&#xd;
+X-Xss-Protection: 1; mode=block&#xd;
+Content-Length: 96&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 03 Apr 2019 07:46:20 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/images/separator.gif"
+    path="/images/separator.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@j@petstore_@browse/%resources%/recorded-artifacts/92ee1f12-50f4-439d-a552-4967e0a0a5e6.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="jpetstore.cfapps.io" slaProfileEnabled="false"
+    uid="63e0a9b7-ae08-4c1c-a4fd-69b555e785af" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_63e0a9b7-ae08-4c1c-a4fd-69b555e785af.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="JSESSIONID=22375D7DD040BBE703FCE1E99E690993; __VCAP_ID__=096392cd-e6d7-4527-6e99-77d6"/>
+    <header name="Host" value="jpetstore.cfapps.io"/>
+    <header name="Referer" value="https://jpetstore.cfapps.io/cart"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Content-Type: image/gif&#xd;
+Date: Tue, 21 May 2019 16:00:48 GMT&#xd;
+Expires: 0&#xd;
+Last-Modified: Wed, 03 Apr 2019 07:46:20 GMT&#xd;
+Pragma: no-cache&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-Frame-Options: DENY&#xd;
+X-Vcap-Request-Id: 2336377d-8922-42fe-6516-06179cc744c3&#xd;
+X-Xss-Protection: 1; mode=block&#xd;
+Content-Length: 46&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 03 Apr 2019 07:46:20 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/images/sm_fish.gif" path="/images/sm_fish.gif"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@j@petstore_@browse/%resources%/recorded-artifacts/92ee1f12-50f4-439d-a552-4967e0a0a5e6.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="jpetstore.cfapps.io" slaProfileEnabled="false"
+    uid="622db6a5-c1bb-46ef-8881-5b0c48fa1f6c" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_622db6a5-c1bb-46ef-8881-5b0c48fa1f6c.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="JSESSIONID=22375D7DD040BBE703FCE1E99E690993; __VCAP_ID__=096392cd-e6d7-4527-6e99-77d6"/>
+    <header name="Host" value="jpetstore.cfapps.io"/>
+    <header name="Referer" value="https://jpetstore.cfapps.io/cart"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Content-Type: image/gif&#xd;
+Date: Tue, 21 May 2019 16:00:50 GMT&#xd;
+Expires: 0&#xd;
+Last-Modified: Wed, 03 Apr 2019 07:46:20 GMT&#xd;
+Pragma: no-cache&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-Frame-Options: DENY&#xd;
+X-Vcap-Request-Id: d692e881-fbe4-4cf6-43e1-06aae3d7aa8b&#xd;
+X-Xss-Protection: 1; mode=block&#xd;
+Content-Length: 271&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 03 Apr 2019 07:46:20 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/images/sm_dogs.gif" path="/images/sm_dogs.gif"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@j@petstore_@browse/%resources%/recorded-artifacts/92ee1f12-50f4-439d-a552-4967e0a0a5e6.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="jpetstore.cfapps.io" slaProfileEnabled="false"
+    uid="fab523ee-9c7f-48b3-90a0-c2052c6376f9" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_fab523ee-9c7f-48b3-90a0-c2052c6376f9.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="JSESSIONID=22375D7DD040BBE703FCE1E99E690993; __VCAP_ID__=096392cd-e6d7-4527-6e99-77d6"/>
+    <header name="Host" value="jpetstore.cfapps.io"/>
+    <header name="Referer" value="https://jpetstore.cfapps.io/cart"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Content-Type: image/gif&#xd;
+Date: Tue, 21 May 2019 16:00:50 GMT&#xd;
+Expires: 0&#xd;
+Last-Modified: Wed, 03 Apr 2019 07:46:20 GMT&#xd;
+Pragma: no-cache&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-Frame-Options: DENY&#xd;
+X-Vcap-Request-Id: 0f809fd4-a32c-4f8a-6d72-4ee949f29f93&#xd;
+X-Xss-Protection: 1; mode=block&#xd;
+Content-Length: 306&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 03 Apr 2019 07:46:20 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/images/sm_reptiles.gif"
+    path="/images/sm_reptiles.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@j@petstore_@browse/%resources%/recorded-artifacts/92ee1f12-50f4-439d-a552-4967e0a0a5e6.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="jpetstore.cfapps.io" slaProfileEnabled="false"
+    uid="0ade3874-64d6-4db7-9d77-63c1d33aa3ac" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_0ade3874-64d6-4db7-9d77-63c1d33aa3ac.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="JSESSIONID=22375D7DD040BBE703FCE1E99E690993; __VCAP_ID__=096392cd-e6d7-4527-6e99-77d6"/>
+    <header name="Host" value="jpetstore.cfapps.io"/>
+    <header name="Referer" value="https://jpetstore.cfapps.io/cart"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Content-Type: image/gif&#xd;
+Date: Tue, 21 May 2019 16:00:50 GMT&#xd;
+Expires: 0&#xd;
+Last-Modified: Wed, 03 Apr 2019 07:46:20 GMT&#xd;
+Pragma: no-cache&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-Frame-Options: DENY&#xd;
+X-Vcap-Request-Id: 870e87da-0264-4416-5a9f-e1365688a534&#xd;
+X-Xss-Protection: 1; mode=block&#xd;
+Content-Length: 398&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 03 Apr 2019 07:46:20 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/images/sm_cats.gif" path="/images/sm_cats.gif"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@j@petstore_@browse/%resources%/recorded-artifacts/92ee1f12-50f4-439d-a552-4967e0a0a5e6.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="jpetstore.cfapps.io" slaProfileEnabled="false"
+    uid="a98ccb43-f3d1-4363-b74a-9ff2541b287e" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_a98ccb43-f3d1-4363-b74a-9ff2541b287e.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="JSESSIONID=22375D7DD040BBE703FCE1E99E690993; __VCAP_ID__=096392cd-e6d7-4527-6e99-77d6"/>
+    <header name="Host" value="jpetstore.cfapps.io"/>
+    <header name="Referer" value="https://jpetstore.cfapps.io/cart"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Content-Type: image/gif&#xd;
+Date: Tue, 21 May 2019 16:00:50 GMT&#xd;
+Expires: 0&#xd;
+Last-Modified: Wed, 03 Apr 2019 07:46:20 GMT&#xd;
+Pragma: no-cache&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-Frame-Options: DENY&#xd;
+X-Vcap-Request-Id: cafcc8e4-8398-4152-430d-462cc9930102&#xd;
+X-Xss-Protection: 1; mode=block&#xd;
+Content-Length: 289&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 03 Apr 2019 07:46:20 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/images/sm_birds.gif" path="/images/sm_birds.gif"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@j@petstore_@browse/%resources%/recorded-artifacts/92ee1f12-50f4-439d-a552-4967e0a0a5e6.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="jpetstore.cfapps.io" slaProfileEnabled="false"
+    uid="715add71-cea0-48f7-b536-baa64368a70f" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_715add71-cea0-48f7-b536-baa64368a70f.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="JSESSIONID=22375D7DD040BBE703FCE1E99E690993; __VCAP_ID__=096392cd-e6d7-4527-6e99-77d6"/>
+    <header name="Host" value="jpetstore.cfapps.io"/>
+    <header name="Referer" value="https://jpetstore.cfapps.io/cart"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Content-Type: image/gif&#xd;
+Date: Tue, 21 May 2019 16:00:50 GMT&#xd;
+Expires: 0&#xd;
+Last-Modified: Wed, 03 Apr 2019 07:46:20 GMT&#xd;
+Pragma: no-cache&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-Frame-Options: DENY&#xd;
+X-Vcap-Request-Id: ecdab951-c8fd-4ec5-578d-8c4a70c99f57&#xd;
+X-Xss-Protection: 1; mode=block&#xd;
+Content-Length: 251&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/x-icon"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Tue, 02 Apr 2019 22:47:34 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/favicon.ico" path="/favicon.ico" postType="1"
+    recordedArtifactZipFileName="team/vus/@j@petstore_@browse/%resources%/recorded-artifacts/92ee1f12-50f4-439d-a552-4967e0a0a5e6.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="jpetstore.cfapps.io" slaProfileEnabled="false"
+    uid="7a9cec6d-c76a-4e47-b416-8f3599339089" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_7a9cec6d-c76a-4e47-b416-8f3599339089.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="JSESSIONID=22375D7DD040BBE703FCE1E99E690993; __VCAP_ID__=096392cd-e6d7-4527-6e99-77d6"/>
+    <header name="Host" value="jpetstore.cfapps.io"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Content-Type: image/x-icon&#xd;
+Date: Tue, 21 May 2019 16:00:50 GMT&#xd;
+Expires: 0&#xd;
+Last-Modified: Tue, 02 Apr 2019 22:47:34 GMT&#xd;
+Pragma: no-cache&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-Frame-Options: DENY&#xd;
+X-Vcap-Request-Id: b5b4e3aa-eca5-4231-75d9-00ad678e964c&#xd;
+X-Xss-Protection: 1; mode=block&#xd;
+Content-Length: 946&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

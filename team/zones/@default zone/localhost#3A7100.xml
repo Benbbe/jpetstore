@@ -1,0 +1,45 @@
+<lg-host hostname="localhost:7100" loadWeight="1" sapSupport="false"
+    standalone="false" supportWANEmulation="false"
+    uid="ff3637ac-391b-412d-8f72-254f853492dc" version="6.9.0;build=20190307-5">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface
+        description="Bluetooth Device (Personal Area Network)"
+        enabled="false" isLoopBack="false" name="eth6">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:6039:8356:207a:7412%eth6">
+            <ip value="fe80:0:0:0:6039:8356:207a:7412%eth6"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Intel(R) Dual Band Wireless-AC 8260"
+        enabled="false" isLoopBack="false" name="wlan3">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="desktop-4j1q30o">
+            <ip value="192.168.3.138"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:510:6f6b:bc35:2f4e%wlan3">
+            <ip value="fe80:0:0:0:510:6f6b:bc35:2f4e%wlan3"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Microsoft Wi-Fi Direct Virtual Adapter #2"
+        enabled="false" isLoopBack="false" name="wlan2">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:bdb7:553b:7b5f:4a91%wlan2">
+            <ip value="fe80:0:0:0:bdb7:553b:7b5f:4a91%wlan2"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>
