@@ -25,9 +25,6 @@
     <lg-networkiface description="Intel(R) Dual Band Wireless-AC 8260"
         enabled="false" isLoopBack="false" name="wlan3">
         <!--****** LG ADDRESSES ******-->
-        <lg-address enabled="false" hostname="desktop-4j1q30o">
-            <ip value="192.168.3.138"/>
-        </lg-address>
         <lg-address enabled="false" hostname="fe80:0:0:0:510:6f6b:bc35:2f4e%wlan3">
             <ip value="fe80:0:0:0:510:6f6b:bc35:2f4e%wlan3"/>
         </lg-address>
