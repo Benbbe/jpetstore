@@ -1,6 +1,6 @@
 <basic-logical-action-container element-number="1" execution-type="0"
-    name="07_Cart_Content" pacingEnd="0" pacingMode="MODE_NO_PACING"
-    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    name="07_Cart_Content" pacingEnd="0" pacingMode="MODE_PACING_SIMPLE"
+    pacingStart="0" pacingValue="0,5" slaProfileEnabled="false"
     uid="09b82646-8d80-46b6-9f81-cb8e114419e2" weightsEnabled="false">
     <weighted-embedded-action uid="92ee1f12-50f4-439d-a552-4967e0a0a5e6"/>
 </basic-logical-action-container>

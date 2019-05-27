@@ -1,6 +1,6 @@
 <basic-logical-action-container element-number="1" execution-type="0"
-    name="03_Select_Product" pacingEnd="0" pacingMode="MODE_NO_PACING"
-    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
-    uid="433d70d0-4c04-4222-824c-c3fc08b52c57" weightsEnabled="false">
+    name="03_Select_Product" pacingEnd="0"
+    pacingMode="MODE_PACING_SIMPLE" pacingStart="0" pacingValue="0,5"
+    slaProfileEnabled="false" uid="433d70d0-4c04-4222-824c-c3fc08b52c57" weightsEnabled="false">
     <weighted-embedded-action uid="326ff104-c285-4b43-b9e7-95cc820ac63a"/>
 </basic-logical-action-container>
